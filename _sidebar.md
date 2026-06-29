@@ -1,7 +1,11 @@
 * **用户文档**
   * [主页介绍](README.md)
+  * [核心特性](features.md)
   * [安装与激活](install.md)
   * [指令与权限](commands.md)
+
+* **开发者与配置**
+  * [配置文件与存储](config.md)
 
 * **功能指南**
   * [选区与坐标](selection.md)
