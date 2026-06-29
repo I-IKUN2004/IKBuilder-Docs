@@ -33,24 +33,33 @@
 
 ### 详细转换步骤：
 
+### 详细转换步骤：
+
 **第一步：获取源文件**
+
 前往 [公共蓝图库](https://mcschematic.top/) 或其他平台，下载你心仪的建筑文件（确保后缀是 `.litematic`）。
-`![公共蓝图库网页示意图](images/step3.png)`
+
+![公共蓝图库网页示意图](images/step3.png)
+
 **第二步：打开在线转换网站**
-在浏览器中打开免费在线转换工具 Bloxelizer：
-👉 [点击访问 Bloxelizer ](https://bloxelizer.com/converter))
-`![Bloxelizer转换网页示意图](images/step4.png)`
+
+在浏览器中打开免费在线转换工具 Bloxelizer：👉 [点击访问 Bloxelizer Converter](https://bloxelizer.com/converter)
+
+![Bloxelizer转换网页示意图](images/step4.png)
+
 **第三步：上传并转换**
+
 1. 在网页中点击 `Upload File` (上传文件) 按钮，选择你刚刚下载的 `.litematic` 文件。
-2. 网站会自动解析。解析成功后，在下方的导出选项中，确保目标格式选择为 **`Bedrock Structure (.mcstructure)`**。
+2. 网站会自动解析。解析成功后，在下方的导出选项中，确保目标格式选择为 **Bedrock Structure (.mcstructure)**。
 3. 点击 **Download** (下载) 按钮。
-4. 
-`![Bloxelizer转换网页示意图2](images/step5.png)`
+
+![Bloxelizer转换网页示意图2](images/step5.png)
 
 **第四步：放入服务器**
+
 1. 将下载好的 `.mcstructure` 文件，重命名为你喜欢的英文名字（例如 `my_house.mcstructure`）。
-2. 将这个文件通过 FTP 或服务器面板，上传到你服务器的以下目录中：
-   `plugins/IKBuilder/structures/`
+2. 将这个文件通过 FTP 或服务器面板，上传到你服务器的以下目录中：`plugins/IKBuilder/structures/`
 
 **第五步：游戏内导入**
+
 进入游戏，输入 `/ikb` 打开菜单 -> 选择 **[3] 结构导入与导出** -> 选择 **导入外部建筑蓝图**，你就能在下拉列表中看到刚才放入的文件了。点击它，就可以生成预览粒子外框并放置啦！
