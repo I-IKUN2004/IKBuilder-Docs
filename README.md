@@ -1,6 +1,6 @@
 # IKBuilder (IK系列建造助手)
 
-* **当前版本：** v1.8.0
+* **当前版本：** v1.9.0
 * **开发者：** I IKUN2004
 * **运行平台：** LeviLamina (LSE API)
 
